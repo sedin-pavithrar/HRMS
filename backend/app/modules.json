@@ -1,0 +1,117 @@
+{
+  "application": "HRMS",
+  "basePath": "/hrms",
+  "landingPage": {
+    "title": "Dashboard",
+    "route": "/"
+  },
+  "modules": [
+    {
+      "id": "recruitment",
+      "name": "Recruitment Management",
+      "route": "/recruitment",
+      "navigation": [
+        {
+          "title": "Job Openings",
+          "route": "/recruitment/jobs"
+        },
+        {
+          "title": "Candidates",
+          "route": "/recruitment/candidates"
+        },
+        {
+          "title": "Interviews",
+          "route": "/recruitment/interviews"
+        },
+        {
+          "title": "Onboarding",
+          "route": "/recruitment/onboarding"
+        },
+        {
+          "title": "Reports",
+          "route": "/recruitment/reports"
+        }
+      ]
+    },
+    {
+      "id": "employees",
+      "name": "Employee Management",
+      "route": "/employees",
+      "navigation": [
+        {
+          "title": "Employees",
+          "route": "/employees/list"
+        },
+        {
+          "title": "Departments",
+          "route": "/employees/departments"
+        },
+        {
+          "title": "Designations",
+          "route": "/employees/designations"
+        },
+        {
+          "title": "Reports",
+          "route": "/employees/reports"
+        }
+      ]
+    },
+    {
+      "id": "leaves",
+      "name": "Leave Management",
+      "route": "/leaves",
+      "navigation": [
+        {
+          "title": "Apply Leave",
+          "route": "/leaves/apply"
+        },
+        {
+          "title": "Leave History",
+          "route": "/leaves/history"
+        },
+        {
+          "title": "Approvals",
+          "route": "/leaves/approvals"
+        }
+      ]
+    },
+    {
+      "id": "attendance",
+      "name": "Attendance Management",
+      "route": "/attendance",
+      "navigation": [
+        {
+          "title": "Student Attendance",
+          "route": "/attendance/students"
+        },
+        {
+          "title": "Employee Attendance",
+          "route": "/attendance/employees"
+        },
+        {
+          "title": "Reports",
+          "route": "/attendance/reports"
+        }
+      ]
+    },
+    {
+      "id": "payroll",
+      "name": "Payroll Management",
+      "route": "/payroll",
+      "navigation": [
+        {
+          "title": "Salary",
+          "route": "/payroll/salary"
+        },
+        {
+          "title": "Payslips",
+          "route": "/payroll/payslips"
+        },
+        {
+          "title": "Reports",
+          "route": "/payroll/reports"
+        }
+      ]
+    }
+  ]
+}
